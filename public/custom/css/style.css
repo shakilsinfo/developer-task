@@ -1,0 +1,125 @@
+.img_table_list_size {
+	border-radius:50px;
+	height:50px;
+	width:50px;
+}
+.img_view_size {
+	height:110px;
+	width:110px;
+}
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+.profile_update_size {
+	width:200px;
+	height:200px;
+	border:solid 2px #ccc;
+}
+.datepicker{
+	padding:0 !important;
+}
+.medicine_list thead tr td {
+	font-size:13px;
+	color:#000099;
+	font-weight:bold;
+}
+.table_scroll{
+	overflow:auto;
+}
+
+.medicine_list tbody tr td {
+	font-size:13px;
+	color:#000099;
+	font-weight:bold;
+}
+.medicine_list .btn{
+	padding:2px 4px !important;
+}
+.select2-container--default .select2-selection--single{
+	border-radius:0px !important;
+}
+.select2-container .select2-selection--single {
+	height:25px !important;
+}
+.select2-container--default .select2-selection--single, .select2-selection .select2-selection--single {
+	padding:2px 12px !important;
+}
+.filter_wow {
+	font-style:italic;
+}
+.modal-header-green {
+  background:#008d4c;
+  color:#fff;
+}
+/*Toggle Switch Css*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #dd4b39;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #00a65a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
